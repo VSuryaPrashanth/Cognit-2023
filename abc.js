@@ -1,18 +1,18 @@
-//var cwndndt = new Date("mar 7, 2023 09:00:00").getTime();
-//var x = setInterval(function(){
-    //var now = new Date().getTime();
-    //var dist = cwndndt - now;
-    //var d = Math.floor(dist / (1000*60*60*24));
-    //var h = Math.floor((dist % (1000*60*60*24)) / (1000*60*60));
-    //var m = Math.floor((dist % (1000*60*60)) / (1000*60));
-    //var s = Math.floor((dist % (1000*60)) / 1000);
+var cwndndt = new Date("mar 15, 2024 09:30:00").getTime();
+var x = setInterval(function(){
+    var now = new Date().getTime();
+    var dist = cwndndt - now;
+    var d = Math.floor(dist / (1000*60*60*24));
+    var h = Math.floor((dist % (1000*60*60*24)) / (1000*60*60));
+    var m = Math.floor((dist % (1000*60*60)) / (1000*60));
+    var s = Math.floor((dist % (1000*60)) / 1000);
 
-    //document.getElementById("days").innerHTML = d;
-    //document.getElementById("hours").innerHTML = h;
-    //document.getElementById("minutes").innerHTML = m;
-    //document.getElementById("seconds").innerHTML = s; 
+    document.getElementById("days").innerHTML = d;
+    document.getElementById("hours").innerHTML = h;
+    document.getElementById("minutes").innerHTML = m;
+    document.getElementById("seconds").innerHTML = s; 
 
-//},1000);
+},1000);
 
 function jam()
 {
